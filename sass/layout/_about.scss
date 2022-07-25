@@ -1,0 +1,49 @@
+.about__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__item {
+    width: 270px;
+
+    margin: 0;
+}
+
+/*About SVG*/
+
+.about__background {
+    @include centered;    
+    
+    height: 120px;
+    border-radius: $border-main-radius;
+    
+    background-color: $second-background-color;
+}
+
+.about__icon {
+    width: 70px;
+    height: 70px;
+}
+
+/*About card info*/
+
+.about__thumb {
+    margin-top: 30px;
+}
+
+.about__thumb-main-text {
+    margin: 0px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.about__description {
+    margin: 0px;
+    margin-top: 10px;
+    
+    line-height: 1.71;
+
+    color: $second-color;
+}

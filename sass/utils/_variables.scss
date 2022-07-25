@@ -1,0 +1,47 @@
+/*colors*/
+$main-text-color: #212121;
+$main-color: #2196f3;
+$logo-second-color: #000000;
+$second-color: #757575;
+$hover-color: #188ce8;
+$footer-color: #2f303a;
+$footer-mail-tel-color: #ffffff99;
+$hero-text-color: #ffffff;
+$second-background-color: #f5f4fa;
+$footer-text-color: #ffffff;
+$main-logo-color: #afb1b8;
+$main-color-hover: #2196f390;
+$svg-icon-color: #ffffff;
+$backdrop-background: #00000020;
+
+/*width and heights, paddings and margins*/
+$page-width: 1200px;
+
+/*Borders*/
+$border-modal: 1px solid #21212120;
+$border-main-radius: 4px;
+$border-icon-radius: 50%;
+$border-portfolio: 1px solid #eeeeee;
+$border-cls-modal: #00000010 solid 1px;
+
+/*Shadows*/
+$main-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+$portfolio-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+0px 4px 4px rgba(0, 0, 0, 0.06),
+1px 4px 6px rgba(0, 0, 0, 0.16);
+$portfolio-filter-btn-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+0px 4px 4px rgba(0, 0, 0, 0.06),
+1px 4px 6px rgba(0, 0, 0, 0.16);
+$modal-btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+/*animation*/
+$main-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+/*mixins*/
+@mixin centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

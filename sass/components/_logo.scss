@@ -1,0 +1,21 @@
+$logo-style: "Raleway";
+
+.logo {
+    color: $main-color;
+}
+
+.header__logo {
+    font-family: $logo-style;
+    font-size: 26px;
+    line-height: 1.19;
+
+    color: $logo-second-color;
+}
+
+.footer__logo {
+    font-family: $logo-style;
+    font-size: 26px;
+    line-height: 1.19;
+
+    color: $footer-text-color;
+}

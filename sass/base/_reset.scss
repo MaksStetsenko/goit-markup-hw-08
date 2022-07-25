@@ -1,0 +1,27 @@
+button {
+    user-select: none;
+}
+
+img {
+    display: block;
+
+    max-width: 100%;
+    height: auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
