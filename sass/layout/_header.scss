@@ -1,44 +1,24 @@
+.header__container {
+    position: relative;
+}
+
 .header {
     border-bottom: 1px solid #ececec;
-
-    padding: 0;
 }
 
-.header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .header__logo-pos {
-    margin-right: 93px;
+    display: block;
 }
 
 .header__nav {
-    display: flex;
     align-items: center;
-
-    margin-right: auto;
-}
-
-
-.header__nav-list {
-    display: flex;
-}
-
-.header__nav-item {
-    margin-right: 50px;
-
-    &:last-child {
-        margin-right: 0px;
-    }
 }
 
 .header__nav-link {
     display: block;
 
-    padding: 32px 0;
-    
     color: $main-text-color;
 
     font-weight: 500;
@@ -76,8 +56,6 @@
 }
 
 .header__cont-list {
-    display: flex;
-
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -85,6 +63,7 @@
 
 .header__cont-link {
     display: flex;
+    text-align: center;
 
     color: $second-color;
     fill: currentColor;
@@ -95,27 +74,5 @@
     &:focus {
         color: $main-color;
         transition: color  $main-animation;
-    }
-}
-
-.header__mail-icon {
-    margin-right: 10px;
-
-    width: 16px;
-    height: 16px;
-}
-
-.header__tel-icon {
-    margin-right: 10px;
-    
-    width: 10px;
-    height: 16px;
-}
-
-.header__cont-item {
-    margin-left: 50px;
-
-    &:first-child {
-        margin-left: 0px;
     }
 }

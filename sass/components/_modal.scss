@@ -1,14 +1,12 @@
 .modal {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
 
     padding: 40px;
     border-radius: $border-main-radius;
-
-    width: 528px;
-
+    
     background-color: $hero-text-color;
 
     box-shadow: $main-shadow;

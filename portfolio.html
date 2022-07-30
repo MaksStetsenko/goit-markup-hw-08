@@ -45,6 +45,14 @@
               <a class="header__nav-link link" href="#">Контакты</a>
             </li>
           </ul>
+          <button type="button" class="header-menu__button" menu-open>
+            <svg class="header-menu__button-icon">
+              <use
+                href="./images/icons.svg#icon-open-menu"
+                icon-open-menu
+              ></use>
+            </svg>
+          </button>
         </header>
 
         <ul class="header__cont-list list">
@@ -110,12 +118,36 @@
             <li class="portfolio__item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__img-desc">
-                  <img
-                    src="./images/portfolio1.jpg"
-                    alt="фото веб-сайта на компьютере"
-                    width="370"
-                    height="295"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio-1-ph@1x.jpg  450w,
+                        ./images/portfolio-1-ph@2x.jpg  900w,
+                        ./images/portfolio-1-ph@3x.jpg 1350w
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-1-tab@1x.jpg 1x,
+                        ./images/portfolio-1-tab@2x.jpg 2x,
+                        ./images/portfolio-1-tab@3x.jpg 3x
+                      "
+                      media="(max-width: 1199px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-1-desk@1x.jpg 1x,
+                        ./images/portfolio-1-desk@2x.jpg 2x,
+                        ./images/portfolio-1-desk@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/portfolio-1-desk@1x.jpg"
+                      alt="Веб-сайт"
+                    />
+                  </picture>
                   <p class="portfolio__img-desc--hover">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -133,12 +165,36 @@
             <li class="portfolio__item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__img-desc">
-                  <img
-                    src="./images/portfolio2.jpg"
-                    alt="дизайн постера к матчу по баскетболу"
-                    width="370"
-                    height="295"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio-2-ph@1x.jpg  450w,
+                        ./images/portfolio-2-ph@2x.jpg  900w,
+                        ./images/portfolio-2-ph@3x.jpg 1350w
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-2-tab@1x.jpg 1x,
+                        ./images/portfolio-2-tab@2x.jpg 2x,
+                        ./images/portfolio-2-tab@3x.jpg 3x
+                      "
+                      media="(max-width: 1199px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-2-desk@1x.jpg 1x,
+                        ./images/portfolio-2-desk@2x.jpg 2x,
+                        ./images/portfolio-2-desk@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/portfolio-2-desk@1x.jpg"
+                      alt="Дизайн плаката"
+                    />
+                  </picture>
                   <p class="portfolio__img-desc--hover">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quibusdam ea, corrupti tempora quod doloremque sunt
@@ -159,12 +215,36 @@
             <li class="portfolio__item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__img-desc">
-                  <img
-                    src="./images/portfolio3.jpg"
-                    alt="логотип приложения"
-                    width="370"
-                    height="295"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio-3-ph@1x.jpg  450w,
+                        ./images/portfolio-3-ph@2x.jpg  900w,
+                        ./images/portfolio-3-ph@3x.jpg 1350w
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-3-tab@1x.jpg 1x,
+                        ./images/portfolio-3-tab@2x.jpg 2x,
+                        ./images/portfolio-3-tab@3x.jpg 3x
+                      "
+                      media="(max-width: 1199px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-3-desk@1x.jpg 1x,
+                        ./images/portfolio-3-desk@2x.jpg 2x,
+                        ./images/portfolio-3-desk@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/portfolio-3-desk@1x.jpg"
+                      alt="Логотип приложения"
+                    />
+                  </picture>
                   <p class="portfolio__img-desc--hover">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quibusdam ea, corrupti tempora quod doloremque sunt
@@ -185,12 +265,36 @@
             <li class="portfolio__item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__img-desc">
-                  <img
-                    src="./images/portfolio4.jpg"
-                    alt="логотип проекта"
-                    width="370"
-                    height="295"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio-4-ph@1x.jpg  450w,
+                        ./images/portfolio-4-ph@2x.jpg  900w,
+                        ./images/portfolio-4-ph@3x.jpg 1350w
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-4-tab@1x.jpg 1x,
+                        ./images/portfolio-4-tab@2x.jpg 2x,
+                        ./images/portfolio-4-tab@3x.jpg 3x
+                      "
+                      media="(max-width: 1199px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-4-desk@1x.jpg 1x,
+                        ./images/portfolio-4-desk@2x.jpg 2x,
+                        ./images/portfolio-4-desk@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/portfolio-4-desk@1x.jpg"
+                      alt="Логотип проекта"
+                    />
+                  </picture>
                   <p class="portfolio__img-desc--hover">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quibusdam ea, corrupti tempora quod doloremque sunt
@@ -211,12 +315,36 @@
             <li class="portfolio__item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__img-desc">
-                  <img
-                    src="./images/portfolio5.jpg"
-                    alt="логотип приложения"
-                    width="370"
-                    height="295"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio-5-ph@1x.jpg  450w,
+                        ./images/portfolio-5-ph@2x.jpg  900w,
+                        ./images/portfolio-5-ph@3x.jpg 1350w
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-5-tab@1x.jpg 1x,
+                        ./images/portfolio-5-tab@2x.jpg 2x,
+                        ./images/portfolio-5-tab@3x.jpg 3x
+                      "
+                      media="(max-width: 1199px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-5-desk@1x.jpg 1x,
+                        ./images/portfolio-5-desk@2x.jpg 2x,
+                        ./images/portfolio-5-desk@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/portfolio-5-desk@1x.jpg"
+                      alt="Приложение"
+                    />
+                  </picture>
                   <p class="portfolio__img-desc--hover">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quibusdam ea, corrupti tempora quod doloremque sunt
@@ -237,12 +365,36 @@
             <li class="portfolio__item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__img-desc">
-                  <img
-                    src="./images/portfolio6.jpg"
-                    alt="фото веб-сайта на компьютере"
-                    width="370"
-                    height="295"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio-6-ph@1x.jpg  450w,
+                        ./images/portfolio-6-ph@2x.jpg  900w,
+                        ./images/portfolio-6-ph@3x.jpg 1350w
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-6-tab@1x.jpg 1x,
+                        ./images/portfolio-6-tab@2x.jpg 2x,
+                        ./images/portfolio-6-tab@3x.jpg 3x
+                      "
+                      media="(max-width: 1199px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-6-desk@1x.jpg 1x,
+                        ./images/portfolio-6-desk@2x.jpg 2x,
+                        ./images/portfolio-6-desk@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/portfolio-6-desk@1x.jpg"
+                      alt="Веб-сайт"
+                    />
+                  </picture>
                   <p class="portfolio__img-desc--hover">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quibusdam ea, corrupti tempora quod doloremque sunt
@@ -263,12 +415,36 @@
             <li class="portfolio__item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__img-desc">
-                  <img
-                    src="./images/portfolio7.jpg"
-                    alt="фото дизайна книги"
-                    width="370"
-                    height="295"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio-7-ph@1x.jpg  450w,
+                        ./images/portfolio-7-ph@2x.jpg  900w,
+                        ./images/portfolio-7-ph@3x.jpg 1350w
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-7-tab@1x.jpg 1x,
+                        ./images/portfolio-7-tab@2x.jpg 2x,
+                        ./images/portfolio-7-tab@3x.jpg 3x
+                      "
+                      media="(max-width: 1199px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-7-desk@1x.jpg 1x,
+                        ./images/portfolio-7-desk@2x.jpg 2x,
+                        ./images/portfolio-7-desk@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/portfolio-7-desk@1x.jpg"
+                      alt="Дизайн книги"
+                    />
+                  </picture>
                   <p class="portfolio__img-desc--hover">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quibusdam ea, corrupti tempora quod doloremque sunt
@@ -289,12 +465,36 @@
             <li class="portfolio__item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__img-desc">
-                  <img
-                    src="./images/portfolio8.jpg"
-                    alt="логотип проекта"
-                    width="370"
-                    height="295"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio-8-ph@1x.jpg  450w,
+                        ./images/portfolio-8-ph@2x.jpg  900w,
+                        ./images/portfolio-8-ph@3x.jpg 1350w
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-8-tab@1x.jpg 1x,
+                        ./images/portfolio-8-tab@2x.jpg 2x,
+                        ./images/portfolio-8-tab@3x.jpg 3x
+                      "
+                      media="(max-width: 1199px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-8-desk@1x.jpg 1x,
+                        ./images/portfolio-8-desk@2x.jpg 2x,
+                        ./images/portfolio-8-desk@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/portfolio-8-desk@1x.jpg"
+                      alt="Логотип проекта"
+                    />
+                  </picture>
                   <p class="portfolio__img-desc--hover">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quibusdam ea, corrupti tempora quod doloremque sunt
@@ -315,12 +515,36 @@
             <li class="portfolio__item">
               <a class="portfolio__link link" href="">
                 <div class="portfolio__img-desc">
-                  <img
-                    src="./images/portfolio9.jpg"
-                    alt="фото приложения на ноутбуке"
-                    width="370"
-                    height="295"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio-9-ph@1x.jpg  450w,
+                        ./images/portfolio-9-ph@2x.jpg  900w,
+                        ./images/portfolio-9-ph@3x.jpg 1350w
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-9-tab@1x.jpg 1x,
+                        ./images/portfolio-9-tab@2x.jpg 2x,
+                        ./images/portfolio-9-tab@3x.jpg 3x
+                      "
+                      media="(max-width: 1199px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-9-desk@1x.jpg 1x,
+                        ./images/portfolio-9-desk@2x.jpg 2x,
+                        ./images/portfolio-9-desk@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/portfolio-9-desk@1x.jpg"
+                      alt="Фото оформления приложения"
+                    />
+                  </picture>
                   <p class="portfolio__img-desc--hover">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quibusdam ea, corrupti tempora quod doloremque sunt
@@ -340,6 +564,58 @@
           </ul>
         </div>
       </section>
+      <div class="header-menu__background is-open" menu-container>
+        <div class="header-menu">
+          <button type="button" class="header-menu__close" menu-close>
+            <svg class="header-menu__close-icon">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="header-menu__list list">
+            <li class="header-menu__item">
+              <a href="./index.html" class="header-menu__link link">Студия</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="./portfolio.html" class="header-menu__link link"
+                >Портфолио</a
+              >
+            </li>
+            <li class="header-menu__item">
+              <a href="" class="header-menu__link link">Контакты</a>
+            </li>
+          </ul>
+          <div>
+            <ul class="header-menu__contacts list">
+              <li class="header-menu__contacts-item">
+                <a href="tel:+380961111111" class="header-menu__contact link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@example.com"
+                  class="header-menu__contact link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="header-menu__socials list">
+              <li class="header-menu__social-item">
+                <a href="" class="header-menu__social link">Instagram</a>
+              </li>
+              <li class="header-menu__social-item">
+                <a href="" class="header-menu__social link">Twitter</a>
+              </li>
+              <li class="header-menu__social-item">
+                <a href="" class="header-menu__social link">Facebook</a>
+              </li>
+              <li class="header-menu__social-item">
+                <a href="" class="header-menu__social link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!--footer content-->
@@ -410,10 +686,10 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="footer__submit">
           <b class="footer__submit-text">Подпишитесь на рассылку</b>
           <form class="footer__form">
-            <label for="client-email"
+            <label for="client-email" class="footer__label"
               ><input
                 type="email"
                 name="email"
@@ -435,5 +711,6 @@
       <!---->
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

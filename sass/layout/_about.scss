@@ -1,16 +1,4 @@
-.about__list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.about__item {
-    width: 270px;
-
-    margin: 0;
-}
-
 /*About SVG*/
-
 .about__background {
     @include centered;    
     

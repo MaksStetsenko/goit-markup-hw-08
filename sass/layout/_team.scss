@@ -4,9 +4,6 @@
 }
 
 .team__list {
-    display: flex;
-    justify-content: space-between;
-
     margin-top: 50px;
 }
 
@@ -16,10 +13,6 @@
     box-shadow: $main-shadow;
 
     background-color: $hero-text-color;
-}
-
-.team__thumb {
-    padding: 30px 32px;
 }
 
 .team__teammate-name {
@@ -46,7 +39,7 @@
 
 .team__teammate-socials {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
     margin-top: 16px;
 }

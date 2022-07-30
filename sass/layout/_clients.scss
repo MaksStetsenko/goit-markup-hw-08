@@ -1,6 +1,6 @@
 .clients__list {
-    display: flex;
-    justify-content: space-between;
+    //display: flex;
+    //justify-content: space-between;
 
     margin-top: 50px;
 }
@@ -8,7 +8,6 @@
 .clients__link {
     @include centered;
 
-    width: 170px;
     height: 92px;
 
     color: $main-logo-color;
