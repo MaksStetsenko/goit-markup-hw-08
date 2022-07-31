@@ -67,7 +67,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 767px;
+    max-width: 460px;
     margin: 0 auto;
     padding: 0 15px;
   }
@@ -77,7 +77,7 @@ img {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
-    min-width: 768px;
+    width: 768px;
     padding: 0 15px;
     margin: 0 auto;
   }
