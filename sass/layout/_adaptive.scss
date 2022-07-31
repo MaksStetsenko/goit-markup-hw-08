@@ -102,6 +102,7 @@
 
 
         &__label-checkbox {
+            flex-wrap: wrap;
             left: 15px;
 
             padding-left: 5px;
@@ -179,7 +180,7 @@
 }
 
 //tablet
- @media screen and (min-width: 768px) and (max-width: 1199px)    
+@media screen and (min-width: 768px) and (max-width: 1199px)    
 {
     //header
     .header {
@@ -305,7 +306,13 @@
         }
 
         &__thumb {
-            padding: 24px 74px;
+            padding: 24px 0;
+        }
+        &__teammate-social {
+            margin-right: 10px;
+            &:last-child {
+                margin-right: 0;
+            }
         }
     }
 
@@ -348,21 +355,24 @@
         &__filters {
             @include centered
         }
-        &__filter-item:not(last-child) {
+        &__filter-item {
             margin-right: 8px;
+
+            &:last-child {
+                margin-right: 0;
+            }
         }
         &__list {
             margin-top: 30px;
 
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
 
             margin-right: -30px;
             margin-bottom: -30px;
         }
         &__item {
-            flex-basis: calc(100% / 3 - 30px);
+            flex-basis: calc(100% / 2 - 30px);
             
             margin-right: 30px;
             margin-bottom: 30px;
@@ -385,23 +395,17 @@
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-        justify-content: space-between;
+        justify-content: space-around;
 
-        padding: 60px 76px;
+        padding: 60px 0;
 
         align-items: baseline;
         }
 
-        &__socials {
-            margin-left: 175px;
-        }
-        &__list {
+        &__info {
             margin-bottom: 60px;
         }
-        &__submit {
-            margin: 0 auto;
-            
-        }
+
         &__label {
             min-width: 450px;
             margin: 0 auto;
@@ -493,6 +497,14 @@
             url("../images/hero-1600@1x.jpg");
         max-width: 1600px;
 
+        @media (min-resolution: 2dppx) {
+                background-image: url("../images/hero-1600@2x.jpg");
+            }
+        
+            @media (min-resolution: 3dppx) {
+                background-image: url("../images/hero-1600@3x.jpg");
+            }
+
         &__text {
             margin: 0 250px;
             font-weight: 900;
@@ -526,6 +538,13 @@
         }
         &__thumb {
             padding: 30px 32px;
+        }
+        &__teammate-social {
+            margin-right: 10px;
+            
+            &:last-child {
+                margin-right: 0;
+            }
         }
     }
 

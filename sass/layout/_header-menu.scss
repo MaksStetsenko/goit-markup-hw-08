@@ -1,6 +1,6 @@
 .header-menu {
         position: relative;
-        padding: 48px 40px;
+        padding: 48px 10px;
 
         display: flex;
         flex-direction: column;
@@ -50,7 +50,7 @@
 
 .header-menu__close {
         position: absolute;
-        right: 15px;
+        right: 10px;
         top: 10px;
 
         border: none;
@@ -85,6 +85,10 @@
         transition: color $main-animation;
 }
 
+.header-menu__current-page {
+        color: $main-color;;
+}
+
 .header-menu__link:hover,
 .header-menu__link:focus,.header-menu__contact:hover,
 .header-menu__contact:focus, .header-menu__social:hover, .header-menu__social:focus {
@@ -100,12 +104,12 @@
 
 .header-menu__contact {
         display: block;
-        font-size: 24px;
-        line-height: 1.17;
-        
+
+        font-size: 34px;
+        line-height: 40px;
         letter-spacing: 0.02em;
 
-        color: $second-color; 
+        color: $main-color;
 
         transition: color $main-animation,
         font-size $main-animation,
@@ -115,8 +119,13 @@
         font-size: 34px;
         line-height: 1,17;
         }
+        &.mail {
+        color: $second-color;
 
-
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        }
 }
 
 .header-menu__socials {
@@ -151,7 +160,5 @@
 }
 
 .header-menu__social {
-        color: $second-color;
-
-        transition: color $main-animation;
+        color: $main-color;
 }
