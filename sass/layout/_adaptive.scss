@@ -1,6 +1,6 @@
 //mobile 
 @media screen and (max-width: 767px)    
-{ 
+{
     //header
     .header {
         padding: 16px 0;
@@ -28,7 +28,6 @@
         @media (min-resolution: 3dppx) {
             background-image: url("../images/hero-480@3x.jpg");
         }
-
         &__text {
             font-size: 26px;
             line-height: 1.62;
@@ -44,9 +43,8 @@
             
             &:last-child {
             margin-bottom: 0;
+            }
         }
-        }
-
     }
 
     //work
@@ -69,15 +67,17 @@
         }
         &__teammate-social {
             margin-right: 10px;
+
             &:last-child {
-                    margin-right: 0;
-                }
+                margin-right: 0;
+            }
         }
     }
 
     //clients
     .clients {
         overflow: hidden;
+
         &__list {
             display: flex;
             flex-wrap: wrap;
@@ -100,13 +100,10 @@
         position: relative;
         max-width: 450px;
 
-
         &__label-checkbox {
             flex-wrap: wrap;
             left: 15px;
-
             padding-left: 5px;
-
 
             font-size: 12px;
             line-height: 1,16;
@@ -154,6 +151,7 @@
     //footer
     .footer {
     padding: 60px 0;
+    
     & div {
         text-align: center;
     }
@@ -171,7 +169,7 @@
         margin-bottom: 20px;
     }
     &__form-input {
-            width: 100%;
+        width: 100%;
         }
     &__form-button {
         margin: 0 auto;
@@ -223,11 +221,13 @@
         &__mail-icon {
             width: 14px;
             height: 10px;
+
             margin-right: 8px;
         }
         &__tel-icon {
             width: 10px;
             height: 14px;
+
             margin-right: 8px;
         }
     }
@@ -236,9 +236,8 @@
             display: none;
         }
         &__background { 
-        display: none;
+            display: none;
         }
-
     }
     //hero 
 
@@ -247,11 +246,12 @@
 
         background-image: linear-gradient(#2f303a40, #2f303a40),
                 url("../images/hero-768@1x.jpg");
+
             max-width: 768px;
 
             @media (min-resolution: 2dppx) {
-                    background-image: url("../images/hero-768@2x.jpg");
-                }
+                background-image: url("../images/hero-768@2x.jpg");
+            }
             
             @media (min-resolution: 3dppx) {
                 background-image: url("../images/hero-768@3x.jpg");
@@ -291,6 +291,7 @@
     //team
     .team {
         overflow: hidden;
+
         &__list {
             display: flex;
             flex-wrap: wrap;
@@ -298,13 +299,11 @@
             margin-right: -30px;
             margin-bottom: -30px;
         }
-
         &__item {
             flex-basis: calc(100% / 2 - 30px);
             margin-right: 30px;
             margin-bottom: 30px;
         }
-
         &__thumb {
             padding: 24px 0;
         }
@@ -352,6 +351,7 @@
     //portfolio
     .portfolio {
         overflow: hidden;
+
         &__filters {
             @include centered
         }
@@ -363,11 +363,10 @@
             }
         }
         &__list {
-            margin-top: 30px;
-
             display: flex;
             flex-wrap: wrap;
 
+            margin-top: 30px;
             margin-right: -30px;
             margin-bottom: -30px;
         }
@@ -395,25 +394,24 @@
         display: flex;
         flex-wrap: wrap;
         text-align: center;
+        align-items: baseline;
         justify-content: space-around;
 
         padding: 60px 0;
-
-        align-items: baseline;
         }
-
         &__info {
             margin-bottom: 60px;
         }
-
         &__label {
             min-width: 450px;
+
             margin: 0 auto;
             margin-bottom: 20px;
         }
         &__form-input {
-            margin: 0;
             width: 100%;
+
+            margin: 0;
         }
         &__form-button {
             margin: 0 auto;
@@ -441,6 +439,7 @@
         }
         &__nav {
             display: flex;
+
             margin-right: auto;
         }
         &__nav-list {
@@ -562,7 +561,6 @@
 
     //modal 
     .modal {
-
         width: 528px;
 
         &__label-checkbox {
@@ -624,6 +622,7 @@
         }
         &__form-input {
             margin-right: 12px;
+
             width: 358px;
         }
     }
